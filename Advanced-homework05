@@ -54,8 +54,8 @@ int main()
 			//itoa()函數有3個參數：第一個參數是要轉換的數字，第二個參數是要寫入轉換結果的目標字符串，第三個參數是轉移數字時所用的基數。 
 			itoa(number, s, 2);//轉換成二進制 
 			printf ("您所輸入的十六進數為 %x，轉換成二進制為 %s。\n",number,s);//轉換成二進制  
-			printf ("您所輸入的十六進數為 %x，轉換成八進制為 %d。\n",number,number);//轉換成八進制 
-			printf ("您所輸入的十六進數為 %x，轉換成十進制為 %o。\n",number,number);//轉換成十進制 
+			printf ("您所輸入的十六進數為 %x，轉換成八進制為 %o。\n",number,number);//轉換成八進制 
+			printf ("您所輸入的十六進數為 %x，轉換成十進制為 %d。\n",number,number);//轉換成十進制 
 			break;
 		}
 		else
